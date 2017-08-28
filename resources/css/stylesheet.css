@@ -52,6 +52,8 @@ header {
 
 #top-menu a {
     padding: 1rem;
+    color: white;
+    text-decoration: none;
 }
 
 /* Slogan CSS */
@@ -153,3 +155,150 @@ footer {
     display: inline-block;
 }
 
+/* Media queries */ 
+@media only screen and (min-width: 1024px) {
+    #menu a {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+        height: 22rem;
+        overflow: hidden;
+        background-position: 35%;
+        background-size: cover;
+    }
+    
+    .banner {
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu a {
+        display: none;
+    }
+    
+    .slogan-wrapper {
+        height: auto;
+        padding: 0.75rem 4rem;
+        top: 8rem;
+    }
+    
+    .slogan {
+        font-size: 1.33rem;
+        margin-right: 4rem;
+    }
+    
+    #info-detail {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    header {
+        background-position: 20%;
+        background-size: cover;
+        height: 17rem;
+    }
+    
+    #banner-title {
+        display: none;
+    }
+    
+    #top-menu a {
+        display: none;
+    }
+    
+    #menu a {
+        display: inline;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .slogan-wrapper {
+        width: 100%;
+        padding: 1rem;
+        top: 11rem;
+    }
+    
+    .slogan {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    
+    .icon-wrapper {
+        display: flex;
+        padding: 0.77rem 0;
+        justify-content: center;
+    }
+    #paper {
+        margin-top: 3.77rem;
+    }
+    #ruler {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: auto;
+        position: relative;
+    }
+    #truck-wrapper {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 3rem;
+        position: absolute;
+        top: 34rem;
+    }
+
+    #icon-caption {
+        font-size: 0.77rem;
+        padding: 0.77rem 0;
+    }
+    
+    .info {
+        position: relative;
+        top: 6.77rem;
+        flex-direction: column;
+    }
+
+    .info-wrapper {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    
+    #info-header {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    
+    #info-detail {
+        font-size: 0.77rem;
+        padding-bottom: 4rem;
+        margin-left: 0.5rem;
+        width: 90%;
+    }
+    
+    footer {
+        position: relative;
+        top: 8rem;
+        justify-content: center;
+    }
+    
+    #footer-logo {
+     padding: 0;   
+    }
+    
+    #copyright {
+        display: none;
+    }
