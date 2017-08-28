@@ -1,0 +1,78 @@
+/* Global CSS */
+
+html,
+body {
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* Header CSS */
+header {
+    background-image: url(../img/glasses-bg.png);
+    background-size: cover;
+    height: 30rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    width: 960px;
+    height: 3.4rem;
+    margin: 1rem auto;
+    background-color: cadetblue;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner img {
+    height: 1.5rem;
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+#banner-title {
+    line-height: 3.4rem;
+    padding-left: 1rem;
+}
+
+.logo {
+    display: flex;   
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+#top-menu a {
+    padding: 1rem;
+}
+
+/* Slogan CSS */
+
+.slogan-wrapper {
+    width: 960px;
+    height: 5.35rem;
+    position: absolute;
+    top: 14.4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slogan {
+    background-color: white;
+    padding: 1.5rem 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-right: -2rem;
+}
+
+/* Services (icons) Section CSS */
+
